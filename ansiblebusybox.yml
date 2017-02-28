@@ -3,7 +3,7 @@
   tasks:
   - name: Busybox
     shell: |
-      docker pull busybox
+      docker-compose -f docker-compose.yml build
 #    docker_container:
 #      name: mydata
 #      image: busybox
