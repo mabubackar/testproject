@@ -4,6 +4,7 @@
   - name: Busybox
     shell: |
       docker build -t "alpine:latest" .
+      docker run -d alpine /bin/sh
 #    docker_container:
 #      name: mydata
 #      image: busybox
