@@ -1,0 +1,10 @@
+- name: Start Busybox Image
+  hosts: all
+  tasks:
+  - name: Busybox
+    shell: |
+      docker pull busybox
+#    docker_container:
+#      name: mydata
+#      image: busybox
+#      state: started
