@@ -3,7 +3,7 @@
   tasks:
   - name: Busybox
     shell: |
-      docker build -t "alpine:latest" .
+      docker-compose -f compose/docker-compose.yml build
 #    docker_container:
 #      name: mydata
 #      image: busybox
