@@ -3,7 +3,6 @@
   tasks:
   - name: Busybox
     shell: |
-#      docker pull alpine
       docker build -t "alpine:latest" .
 #    docker_container:
 #      name: mydata
